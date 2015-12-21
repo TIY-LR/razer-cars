@@ -1,6 +1,5 @@
 ---
 layout: page
-title: General Info
 ---
 
 Our team at Razer Cars needs to know what cars we have available for rent at our store.
