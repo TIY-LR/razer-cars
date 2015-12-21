@@ -18,6 +18,11 @@ We have a few deadlines so that we can get things ready:
 * Tuesday 1PM CST - **NEEDED** Users can manage different car types (our data entry team needs to get working)
 * Tuesday 5PM CST - **NEEDED** Users can manage new rentals (Checking out and returning cars)
 
+## Design
+
+While our designer originally was planning to use bootstrap, you and your team can use any library (Materialize, Material Lite, Foundation, etc) to create the product.
+In this instance functionality is more important than pixel accuracy.
+
 ## User Features
 
 The different screens and user features have been further broken down into their own outlines:
