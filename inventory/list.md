@@ -1,24 +1,24 @@
 ---
 layout: page
-title: Car Type Form
-order: 2
+title: Inventory List
+order: 3
 ---
 
-At Razer Cars, we have a variety of different car makes and models that we stock.
-Because of this, at any time, we need to be able to add new or modify existing makes and models to our ever growing list of offerings.
+At Razer Cars, we need to keep track of all of the different fleets of cars out for rent.
+On this Inventory List screen we'll be able to quickly see what cars are available.
 
 ## User Stories
 
-* A user can see the new Car Type form at `/cars/new`
-* A user can create a new Car Type
-* A user can see the edit Car Type form at `/cars/:id`
-* A user edit an existing Car Type
+* A user can see all existing Fleets
+  - A user can see the car type information (Year, Make, Model)
+  - A user can see the currently available rentals
+* A user can click on an "View Rentals" link and be redirected to the Inventory Detail for a fleet
 
 ## Design
 
 Our designer has sent in a rough mock up of this page:
 
-![Car Type Form]({{ site.baseurl }}public/cars-form.png)
+![Car Type Form]({{ site.baseurl }}public/inventory-list.png)
 
 ## Acceptance Tests
 

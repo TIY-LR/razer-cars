@@ -1,24 +1,31 @@
 ---
 layout: page
-title: Car Type Form
-order: 2
+title: Inventory Details
+order: 4
 ---
 
-At Razer Cars, we have a variety of different car makes and models that we stock.
-Because of this, at any time, we need to be able to add new or modify existing makes and models to our ever growing list of offerings.
+At Razer Cars, we need to keep track of what cars are on the lot ready to be rented, or which ones have probably been stolen at this point.
+We want to be able to manage this for a car fleet from a single screen.
+This screen will allow us to see what the status of our current fleet and rentals are, rent out cars (if any are available), and return cars back to the lot.
 
 ## User Stories
 
-* A user can see the new Car Type form at `/cars/new`
-* A user can create a new Car Type
-* A user can see the edit Car Type form at `/cars/:id`
-* A user edit an existing Car Type
+* A user can see the total supply for the current fleet
+* A user can see the cars available for rent in the current fleet (total supply - active rentals)
+* A user can see the rental dates for current active rents
+* A user can click on "Quick Rent" to check out a car from the fleet
+  - "Available for Rent" should decrease by one
+  - New item is added to "Current Rentals"
+* A user cannot click on "Quick Rent" if there are no available cars in the current fleet
+* A user can click on "Return" to return a car from active rental back into the fleet lot
+  - "Available for Rent" should increase by one
+  - Item is no longer listed in "Current Rentals"
 
 ## Design
 
 Our designer has sent in a rough mock up of this page:
 
-![Car Type Form]({{ site.baseurl }}public/cars-form.png)
+![Car Type Form]({{ site.baseurl }}public/inventory-detail.png)
 
 ## Acceptance Tests
 
