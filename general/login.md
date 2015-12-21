@@ -69,3 +69,8 @@ test('User cannot login with invalid credentials', function(assert) {
   });
 });
 ```
+
+## Resources
+
+* [Ember Simple Auth](https://github.com/simplabs/ember-simple-auth)
+* [Ember Simple Auth Guides](http://rtablada.github.io/simple-auth-guide)
