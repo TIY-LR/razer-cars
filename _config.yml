@@ -7,7 +7,7 @@ title:            Razer Cars
 tagline:          'Guides'
 description:      A way to manage cars for our best rentals
 url:              http://tiy-lr.github.io/razer-cars/
-baseurl:          /
+baseurl:          http://tiy-lr.github.io/razer-cars/
 
 author:
   name:           'Ryan Tablada'
