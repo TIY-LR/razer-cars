@@ -9,7 +9,9 @@ Because of this, at any time, we need to be able to add new or modify existing m
 
 ## User Stories
 
+* A user can see the new Car Type form at `/cars/new`
 * A user can create a new Car Type
+* A user can see the edit Car Type form at `/cars/:id`
 * A user edit an existing Car Type
 
 ## Design
@@ -20,6 +22,7 @@ Our designer has sent in a rough mock up of this page:
 
 ## Acceptance Tests
 
+{% comment %}
 ```js
 // tests/acceptance/car-type/list-test.js
 import { test } from 'qunit';
@@ -31,19 +34,19 @@ moduleForAcceptance('Acceptance | car-type/form', {
   },
 });
 
-test('visiting /cars shows all car-types', function(assert) {
-  visit('/cars');
+test('visiting /cars/new shows the car-type form', function(assert) {
+  visit('/cars/new');
 
   andThen(function() {
-    assert.equal(currentURL(), '/cars');
+    assert.equal(currentURL(), '/cars/new');
   });
 });
 
-test('User can see a list of car types', function(assert) {
-  visit('/cars');
+test('User can car type form', function(assert) {
+  visit('/cars/new');
 
   andThen(function() {
-    let items = findWithAssert('.car-type-list-item');
+    let items = findWithAssert('.form-input__');
     let firstItem = items.first();
 
     assert.equal(items.length, 5, 'There should be five car types in the list');
@@ -71,3 +74,4 @@ test('User can navigate to new car type form', function(assert) {
   });
 });
 ```
+{% endcomment %}
