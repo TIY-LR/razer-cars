@@ -1,0 +1,17 @@
+# Dependencies
+markdown:         redcarpet
+# highlighter:      pygments
+
+# Setup
+title:            Razer Cars
+tagline:          'Guides'
+description:      A way to manage cars for our best rentals
+url:              http://tiy-lr.github.io/razer-cars/
+baseurl:          /
+
+author:
+  name:           'Ryan Tablada'
+  url:            http://twitter.com/ryantablada
+
+github:
+  repo:           https://github.com/tiy-lr/razer-cars
