@@ -11,10 +11,6 @@ So, the application should be secured (both on the front end and API) using auth
 
 * A user can login with username and password
   - OAuth2 using Ember Simple Auth and Microsoft Identity
-* A guest user sees "Login" in the navigation bar
-  - Navigates to `/login`
-* An authenticated user sees "Logout" in the navigation bar
-  - Invalidates user session
 
 ## Design
 

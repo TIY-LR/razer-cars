@@ -7,6 +7,9 @@ We need to be able to see how many of a single car type are out for rent vs on t
 We also need to be able to see when the cars were rented
 and should be able to manage checkouts and returns from a single screen.
 
+> **NOTE** this software is only meant to track the current status of an entire fleet of cars of a single type, not an individual car.
+So when an employee signs out a 2015 Ford F150, that is not tied to any single car, instead it is just a record of any F150 being checked out.
+
 ## Project Schedule
 
 With the upcoming holidays and rental rush coming in quick, we need to get our app up and running ASAP.
