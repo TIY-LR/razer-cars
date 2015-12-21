@@ -35,3 +35,11 @@ The different screens and user features have been further broken down into their
 * [Car Type Form](car-type/form.html)
 * [Main Inventory Screen](inventory/list.html)
 * [Main Inventory Details](inventory/details.html)
+
+## Trello
+
+If you would like to use a Trello board to keep track of your progress, below is a link to an example board with the user stories listed out.
+
+* https://trello.com/b/7xv410rG
+
+You can [copy this board](http://help.trello.com/article/802-copying-cards-lists-or-boards) to start with all of the user stories and lanes setup.
