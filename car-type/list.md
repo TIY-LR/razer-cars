@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Car Type List
+order: 1
 ---
 
 At Razer Cars, we have a variety of different car makes and models that we stock.

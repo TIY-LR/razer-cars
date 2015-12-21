@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Resources
+order: 30
 ---
 
 # Ember And Front End Resources

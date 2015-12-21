@@ -26,7 +26,8 @@ In this instance functionality is more important than pixel accuracy.
 
 The different screens and user features have been further broken down into their own outlines:
 
-* [Login](login.html)
+* [Login](general/login.html)
+* [Navigation](general/navigation.html)
 * [Car Type List](car-type/list.html)
 * [Car Type Form](car-type/form.html)
 * [Main Inventory Screen](inventory/list.html)
