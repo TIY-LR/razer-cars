@@ -16,7 +16,7 @@ Because of this, at any time, we need to be able to add new or modify existing m
 
 Our designer has sent in a rough mock up of this page:
 
-![Car Type Form]({{ site.baseurl }}/public/cars-form.png)
+![Car Type Form]({{ site.baseurl }}public/cars-form.png)
 
 ## Acceptance Tests
 

@@ -18,7 +18,7 @@ Because of this, at any time, we need to be able to add new makes and models to 
 
 Our designer has sent in a rough mock up of this page:
 
-![Car Type List]({{ site.baseurl }}/public/cars-index.png)
+![Car Type List]({{ site.baseurl }}public/cars-index.png)
 
 ## Acceptance Tests
 

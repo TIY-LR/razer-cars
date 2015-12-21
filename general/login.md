@@ -20,7 +20,7 @@ So, the application should be secured (both on the front end and API) using auth
 
 Our designer has sent in a rough mock up of this page:
 
-![Login Page]({{ site.baseurl }}/public/login-form.png)
+![Login Page]({{ site.baseurl }}public/login-form.png)
 
 ## Acceptance Tests
 
